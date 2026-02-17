@@ -1,13 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import sandeepProfile from '../../assets/sandeep.jpg';
 import resultImage from '../../assets/whitecheckshirt.jpg';
 
 const Testimonials: React.FC = () => {
-    const [activeIndex, setActiveIndex] = useState(1); // Sandeep II is active in design, or let's make the main one active.
-    // Actually in the screenshot, the middle one "Sandeep II" seems selected or at least prominent? 
-    // No, the screenshot shows "Sandeep" (top) is small, "Sandeep II" is large/selected, "Sandeep III" is small.
-    // Wait, let's look closer. The text says "Sandeep" in the quote? Or maybe the user just wants the layout.
-    // Let's assume the middle one is active for the visual effect of the curve.
+    // activeIndex logic removed as it was unused and static layout is used
+
 
     const testimonials = [
         {

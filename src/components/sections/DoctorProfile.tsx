@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../common/Button';
+
 import doctorImage from '../../assets/doctorimg.png';
 
 const DoctorProfile: React.FC = () => {

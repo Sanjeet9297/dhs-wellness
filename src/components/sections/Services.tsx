@@ -4,43 +4,7 @@ import React from 'react';
 // Since the screenshot shows specific icon styles (hair follicle, face mask, skin layers)
 
 const Services: React.FC = () => {
-    const services = [
-        {
-            title: "Hair Treatments",
-            icon: (
-                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M24 42C24 42 36 36 36 24V12L24 6L12 12V24C12 36 24 42 24 42Z" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M24 16V32" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M18 22L24 16L30 22" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                    {/* Simplified hair strand logic, will use more custom paths below for better match */}
-                </svg>
-            )
-        },
-        {
-            title: "Skin Treatments",
-            icon: (
-                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="24" cy="24" r="14" stroke="#1A1A1A" strokeWidth="2" />
-                    <path d="M18 22C18 22 20 20 24 20C28 20 30 22 30 22" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" />
-                    <path d="M24 30C24 30 22 32 18 32" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" />
-                    {/* Simplified face icon */}
-                </svg>
-            )
 
-        },
-        {
-            title: "Aesthetic Dermatology",
-            icon: (
-                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="8" y="24" width="32" height="16" rx="2" stroke="#1A1A1A" strokeWidth="2" />
-                    <path d="M16 24V18" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" />
-                    <path d="M24 24V16" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" />
-                    <path d="M32 24V18" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" />
-                    {/* Simplified derma roller/needle logic */}
-                </svg>
-            )
-        }
-    ];
 
     // Replacing the SVGs with more specific ones to match the screenshot:
     // Hair: Follicle with stars
